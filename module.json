@@ -15,7 +15,9 @@
     }
   ],
   "dependencies": [
-
+    {
+      "name": "lib-wrapper"
+    }
   ],
   "conflicts": [
     
@@ -37,7 +39,7 @@
     }
   ],
   "system":"pbta",
-  "allowBugReporter":true
+  "allowBugReporter":true,
   "url": "This is auto replaced",
   "manifest": "This is auto replaced",
   "download": "This is auto replaced",
