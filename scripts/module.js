@@ -3,7 +3,7 @@ Hooks.once('ready', async function() {
         const actor = this.actor;
         //todo: handle vigor and drunk (and both)
         const d = new Dialog({
-            title: Roll,
+            title: "Roll",
             buttons:{
                 hope:{
                     icon: "<i class='fas fa-heart'></i>",
