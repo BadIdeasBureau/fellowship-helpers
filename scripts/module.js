@@ -3,7 +3,7 @@ Hooks.once('ready', async function() {
         const actor = this.actor;
         console.log("Pre-dialog")
         //todo: handle vigor and drunk (and both)
-        const oldRoll = actor.data.data?.resources?.rollFormula?.value;
+        const oldRoll = actor.data.data?.resources?.rollFormula?.value ?? "2d6";
         const newRoll = await new Promise((resolve) => new Dialog({
             title: "Roll",
             buttons:{
